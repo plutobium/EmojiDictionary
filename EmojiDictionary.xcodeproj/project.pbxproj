@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB11259A1EC6BD8C00D6DFA3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1125991EC6BD8C00D6DFA3 /* DetailViewController.swift */; };
+		CB11259C1EC6C68800D6DFA3 /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB11259B1EC6C68800D6DFA3 /* DetailData.swift */; };
+		CB11259E1EC6D09300D6DFA3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CB11259D1EC6D09300D6DFA3 /* Podfile */; };
 		CB3517371EC5A5CD00156CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3517361EC5A5CD00156CE1 /* AppDelegate.swift */; };
 		CB3517391EC5A5CD00156CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3517381EC5A5CD00156CE1 /* ViewController.swift */; };
 		CB35173C1EC5A5CD00156CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB35173A1EC5A5CD00156CE1 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB1125991EC6BD8C00D6DFA3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CB11259B1EC6C68800D6DFA3 /* DetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailData.swift; sourceTree = "<group>"; };
+		CB11259D1EC6D09300D6DFA3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		CB3517331EC5A5CD00156CE1 /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3517361EC5A5CD00156CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB3517381EC5A5CD00156CE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				CB35173D1EC5A5CD00156CE1 /* Assets.xcassets */,
 				CB35173F1EC5A5CD00156CE1 /* LaunchScreen.storyboard */,
 				CB3517421EC5A5CD00156CE1 /* Info.plist */,
+				CB1125991EC6BD8C00D6DFA3 /* DetailViewController.swift */,
+				CB11259B1EC6C68800D6DFA3 /* DetailData.swift */,
+				CB11259D1EC6D09300D6DFA3 /* Podfile */,
 			);
 			path = EmojiDictionary;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			files = (
 				CB3517411EC5A5CD00156CE1 /* LaunchScreen.storyboard in Resources */,
 				CB35173E1EC5A5CD00156CE1 /* Assets.xcassets in Resources */,
+				CB11259E1EC6D09300D6DFA3 /* Podfile in Resources */,
 				CB35173C1EC5A5CD00156CE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB11259C1EC6C68800D6DFA3 /* DetailData.swift in Sources */,
+				CB11259A1EC6BD8C00D6DFA3 /* DetailViewController.swift in Sources */,
 				CB3517391EC5A5CD00156CE1 /* ViewController.swift in Sources */,
 				CB3517371EC5A5CD00156CE1 /* AppDelegate.swift in Sources */,
 			);
@@ -266,7 +278,7 @@
 				DEVELOPMENT_TEAM = 78VK42F68Q;
 				INFOPLIST_FILE = EmojiDictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypticmantra.EmojiDictionary;
+				PRODUCT_BUNDLE_IDENTIFIER = net.webvariable.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +291,7 @@
 				DEVELOPMENT_TEAM = 78VK42F68Q;
 				INFOPLIST_FILE = EmojiDictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypticmantra.EmojiDictionary;
+				PRODUCT_BUNDLE_IDENTIFIER = net.webvariable.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,6 +316,7 @@
 				CB3517471EC5A5CD00156CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
